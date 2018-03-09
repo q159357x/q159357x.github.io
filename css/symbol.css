@@ -1,0 +1,310 @@
+/* for css framework */
+
+
+/* 1440px > */
+
+/* 
+    灰階文字 
+    深色用#232323
+    淺色用#848688
+*/
+
+*{
+    outline: none;
+}
+
+@font-face{
+
+}
+
+*{
+    font-family: 'Noto Sans', 'Noto Sans CJK TC', 'gothamrnd', sans-serif;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+li{
+    list-style: none;
+}
+ 
+
+.title_l {
+    font-size: 32px;
+    margin: 0px;
+    padding-bottom: 20px;
+    line-height: 100%;
+    color: #232323;
+}
+
+a{
+    text-decoration: none;
+}
+
+.title_s{
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 20px;
+    line-height: 100%;
+    color: #232323;
+}
+
+.title_xs{
+    font-size: 16px;
+    margin: 0px;
+    padding-bottom: 20px;
+    line-height: 100%;
+    color: #232323;
+}
+
+.des{
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0px;
+    padding-bottom: 20px;
+    color: #232323;
+}
+
+
+.f_btn01 {
+    display: inline-block;
+    line-height: 100%;
+    background-color: transparent;
+    padding: 13px 57px;
+    border-radius: 100px;
+    border:1px solid #232323;
+    color:#232323;
+    transition:0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.f_btn01:hover{
+    color:#000;
+    background:#ffd200;
+    border-color:#ffd200;
+}
+
+.f_btn02{
+    display: inline-block;
+    line-height: 100%;
+    background-color: transparent;
+    padding: 13px 57px;
+    border-radius: 100px;
+    border:1px solid #232323;
+    color:#232323;
+    transition:0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.f_btn02:hover{
+    color:#000;
+    background:#ffd200;
+    border-color:#ffd200;
+}
+
+f_btn03{
+    display: inline-block;
+    line-height: 100%;
+    background-color: transparent;
+    padding: 13px 57px;
+    border-radius: 100px;
+    border:1px solid #232323;
+    color:#232323;
+    transition:0.3s;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.f_btn02:hover{
+    color:#000;
+    background:#ffd200;
+    border-color:#ffd200;
+}
+
+.blk_p > * {
+    color:#fff;
+    border-color: #fff;
+}
+.select_bg{
+    position: relative;
+}
+
+.select_bg:before {
+    position: absolute;
+    font-family: Fontawesome;
+    content: "\F0D7";
+    display: flex;
+    width: 45px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    border: 1px solid #232323;
+    right: 0;
+    top: 0;
+    box-sizing: border-box;
+    padding-top: 2px;
+}
+
+
+.f_select01{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background-image: none;
+    padding-left: 10px;
+    border: 1px solid #232323;
+    border-radius: 0px;
+    background: transparent;
+    outline: none;
+    -webkit-appearance: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+.f_quantity_bg{
+    display: flex;
+}
+
+
+.f_quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 35px;
+    background-color: transparent;
+    border: 1px solid #232323;
+    color: #232323;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    border-left: 0 solid #000;
+    border-right: 0 solid #000;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 2px;
+}
+
+.f_minus_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 35px;
+    border: 1px solid #232323;
+    background-color: transparent;
+    color: #232323;
+    font-size: 18px;
+    font-weight:600;
+}
+
+.f_plus_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 35px;
+    border: 1px solid #232323;
+    background-color: transparent;
+    color: #232323;
+    font-size: 18px;
+    font-weight:600;
+}
+
+.f_color_ball{
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.f_choose_color {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+.f_choose_color li {
+    width: 18px;
+    height: 18px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 4px;
+    min-width: 25px;
+    min-height: 25px;
+}
+
+
+.f_choose_color li:hover {
+    border: 1px solid rgb(0, 0, 0);
+}
+
+/* circle color choose */
+
+.jetblack {
+    background-color: #000;
+}
+
+.black {
+    background-color: #383636;
+}
+
+.gold {
+    background-color: #cebe86;
+}
+
+.silver {
+    background-color: #c9c8c9;
+}
+
+.red {
+    background-color: #dc5455;
+}
+
+.rosegold {
+    background-color: #fad6d3;
+}
+
+.f_text_bg{
+    height: 250px;
+}
+
+/* icons */
+
+.f_next{
+    cursor: pointer;
+}
+
+.f_prev{
+    cursor: pointer;
+}
+
+.f_esc{
+    cursor: pointer;
+}
