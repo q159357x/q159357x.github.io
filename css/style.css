@@ -14,12 +14,6 @@ input[type=number]::-webkit-outer-spin-button {
     margin-top: 20px;
 }
 
-.title_01{
-    margin: 0px;
-    background: #efefef;
-    padding: 30px 0px 30px 30px;
-    font-size: 16px;
-}
 
 body a , body button{
     display: block;
@@ -33,11 +27,34 @@ body a , body button{
     box-sizing: border-box;
 }
 
+
+/* header */
+
+.title_01{
+    margin: 0px;
+    background: #efefef;
+    font-size: 16px;
+    padding: 30px 0;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .title_01{
+        padding:20px 0;
+        padding-left: 30px;
+    }
+}
+
+
+
+/* content */
+
+
 .bg_container{
     display:flex;
     min-height: 100vh;
     /* height: 100vh; */
- 
 }
 
 .bg_container > div{
@@ -54,8 +71,14 @@ body a , body button{
     background: #e8e8e8;
 }
 
+
+
 .half_left{
-    
+    width: 100%;
+}
+
+.half_right{
+    width: 100%;
 }
 
 .right_bg {
@@ -69,6 +92,20 @@ body a , body button{
 
 .s_btn{
     margin-bottom:20px; 
+}
+
+@media (max-width:768px) {
+    .bg_container{
+        display: block;
+    }
+
+    .left_bg{
+        width: 100%;
+    }
+
+    .right_bg{
+        width: 100%;
+    }
 }
 
 /* footer */
