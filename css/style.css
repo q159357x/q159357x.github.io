@@ -30,13 +30,26 @@ body a , body button{
 
 /* header */
 
+
+.header_bg{
+    display: flex;
+    height: auto;
+    background: #efefef;
+    justify-content: space-between;
+}
+
 .title_01{
     margin: 0px;
-    background: #efefef;
     font-size: 16px;
     padding: 30px 0;
     padding-left: 30px;
     font-weight: bold;
+}
+
+.light{
+    padding: 18px 25px;
+    color:#fff;
+    background: darkgray;
 }
 
 @media (max-width: 768px) {
@@ -103,8 +116,14 @@ body a , body button{
         width: 100%;
     }
 
+    .bg_container > div{
+        position: absolute;
+        transition: 0.3s;
+    }
+
     .right_bg{
         width: 100%;
+        opacity: 0;
     }
 }
 
