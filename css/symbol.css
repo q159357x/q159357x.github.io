@@ -355,6 +355,7 @@ li{
     font-weight: 600;
     padding-top: 2px;
     border-radius: 0px;
+    box-shadow: none;
 }
 
 .f_quantityb{
@@ -375,6 +376,7 @@ li{
     font-weight: 600;
     padding-top: 2px;
     border-radius: 0px;
+    box-shadow: none;
 }
 
 .f_minus_btn{
