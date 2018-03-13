@@ -9,6 +9,10 @@ input[type=number]::-webkit-outer-spin-button {
     margin :  0 ;  
 } 
 
+a , a:hover , a:active , a:focus{
+    text-decoration: none !important;
+}
+
 .push20{
     margin-bottom: 20px;
     margin-top: 20px;
@@ -28,6 +32,8 @@ body a , body button{
 }
 
 
+
+
 /* header */
 
 
@@ -36,6 +42,7 @@ body a , body button{
     height: auto;
     background: #efefef;
     justify-content: space-between;
+    transition: 0.3s;
 }
 
 .title_01{
@@ -49,7 +56,9 @@ body a , body button{
 .light{
     padding: 18px 25px;
     color:#fff;
-    background: darkgray;
+    background: #dedede;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
 @media (max-width: 768px) {
@@ -82,6 +91,7 @@ body a , body button{
     display: flex;
     align-items: center;
     background: #e8e8e8;
+    position: absolute;
 }
 
 
@@ -114,10 +124,10 @@ body a , body button{
 
     .left_bg{
         width: 100%;
+        z-index: -1;
     }
 
     .bg_container > div{
-        position: absolute;
         transition: 0.3s;
     }
 
@@ -143,4 +153,32 @@ body a , body button{
 .f_scrolltop:hover {
     color: rgb(255, 255, 255);
     background: #1d1d1d;
+}
+
+/* jquery use */
+.darkside{
+    opacity: 1 !important;
+}
+
+.lightside{
+    opacity: 0;
+}
+
+.sun{
+    position: absolute;
+    transition: 0.3s;
+}
+
+.moon{
+    opacity: 0;
+    transition: 0.3s;   
+}
+
+.dark-color01{
+    background: #2d2d2d;
+    color: #fff;    
+}
+
+.dark-color02{
+    background: #000000;
 }

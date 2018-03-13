@@ -83,4 +83,22 @@ $(function () {
     $('.f_scrolltop').click(function () {
         $('html,body').animate({ scrollTop: $('header').offset().top }, 700);
     });
-}); 
+});
+
+$(function () {
+    $(".light").click(function () {
+        $(".right_bg").toggleClass("darkside");
+        $(".moon").toggleClass("darkside");
+        $(".sun").toggleClass("lightside");
+        $(".header_bg").toggleClass("dark-color01");
+        $(".light").toggleClass("dark-color02");
+    })
+});
+
+/*
+$(function () {
+    $(".light").click(function () {
+        $(".right_bg").removeClass("darkside");
+    })
+});
+*/
