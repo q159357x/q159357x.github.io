@@ -68,8 +68,49 @@ body a , body button{
     }
 }
 
+@media (min-width: 767px) {
+    .light{
+        display: none;
+    }
+}
 
 
+
+
+/* phone button */
+@media (max-width: 767px) {
+
+    .darkside{
+        opacity: 1 !important;
+    }
+
+    .lightside{
+        opacity: 0;
+    }
+
+    .sun{
+        position: absolute;
+        transition: 0.3s;
+    }
+
+    .moon{
+        opacity: 0;
+        transition: 0.3s;   
+    }
+
+    .dark-color01{
+        background: #2d2d2d;
+        color: #fff;    
+    }
+
+    .dark-color02{
+        background: #000000;
+    }
+
+    .left_bg{
+        position: absolute;
+    }
+}
 /* content */
 
 
@@ -91,7 +132,6 @@ body a , body button{
     display: flex;
     align-items: center;
     background: #e8e8e8;
-    position: absolute;
 }
 
 
@@ -117,7 +157,7 @@ body a , body button{
     margin-bottom:20px; 
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .bg_container{
         display: block;
     }
@@ -155,30 +195,3 @@ body a , body button{
     background: #1d1d1d;
 }
 
-/* jquery use */
-.darkside{
-    opacity: 1 !important;
-}
-
-.lightside{
-    opacity: 0;
-}
-
-.sun{
-    position: absolute;
-    transition: 0.3s;
-}
-
-.moon{
-    opacity: 0;
-    transition: 0.3s;   
-}
-
-.dark-color01{
-    background: #2d2d2d;
-    color: #fff;    
-}
-
-.dark-color02{
-    background: #000000;
-}
