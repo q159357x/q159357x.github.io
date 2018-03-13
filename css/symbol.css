@@ -170,6 +170,8 @@ li{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 1px;
+    width: 200px;
+    max-width: 100%;;
 }
 
 .f_btn02:hover{
@@ -193,6 +195,8 @@ li{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 1px;
+    width: 200px;
+    max-width: 100%;;
 }
 
 .f_btn02b:hover{

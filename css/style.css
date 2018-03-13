@@ -91,6 +91,7 @@ body a , body button{
     .sun{
         position: absolute;
         transition: 0.3s;
+        font-size: 16px;
     }
 
     .moon{
@@ -169,6 +170,8 @@ body a , body button{
 
     .bg_container > div{
         transition: 0.3s;
+        padding-top:50px;
+        padding-bottom: 50px;     
     }
 
     .right_bg{
