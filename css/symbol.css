@@ -159,7 +159,7 @@ li{
     display: inline-block;
     line-height: 100%;
     background-color: transparent;
-    padding: 13px 57px;
+    padding: 15px 50px;
     border-radius: 100px;
     border:1px solid #232323;
     color:#232323;
@@ -170,7 +170,7 @@ li{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 1px;
-    width: 200px;
+    width: 260px;
     max-width: 100%;;
 }
 
@@ -184,7 +184,7 @@ li{
     display: inline-block;
     line-height: 100%;
     background-color: transparent;
-    padding: 13px 57px;
+    padding: 15px 55px;
     border-radius: 100px;
     border:1px solid #fff;
     color:#fff;
@@ -195,7 +195,7 @@ li{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 1px;
-    width: 200px;
+    width: 260px;
     max-width: 100%;;
 }
 
@@ -209,7 +209,7 @@ li{
     display: inline-block;
     line-height: 100%;
     background-color: transparent;
-    padding: 13px 57px;
+    padding: 15px 50px;
     border-radius: 100px;
     border:1px solid #232323;
     color:#232323;
@@ -220,20 +220,21 @@ li{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 1px;
-    width: 200px;
+    width: 260px;
     max-width: 100%;
 }
 
 .f_btn03:hover{
     letter-spacing: 2px;
     color:#232323;
+    opacity: 1;
 }
 
 .f_btn03b{
     display: inline-block;
     line-height: 100%;
     background-color: transparent;
-    padding: 13px 57px;
+    padding: 15px 50px;
     border-radius: 100px;
     border:1px solid #fff;
     color:#fff;
@@ -244,7 +245,7 @@ li{
     font-weight: bold;
     font-size: 14px;
     letter-spacing: 1px;
-    width: 200px;
+    width: 260px;
     max-width: 100%;
 }
 

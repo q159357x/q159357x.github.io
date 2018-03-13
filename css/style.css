@@ -58,7 +58,7 @@ body a , body button{
     color:#fff;
     background: #dedede;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.3s;   
 }
 
 @media (max-width: 768px) {
@@ -82,6 +82,8 @@ body a , body button{
 
     .darkside{
         opacity: 1 !important;
+        position: relative;
+        z-index: 100;
     }
 
     .lightside{
@@ -110,6 +112,7 @@ body a , body button{
 
     .left_bg{
         position: absolute;
+        z-index: 99;;
     }
 }
 /* content */
@@ -151,6 +154,7 @@ body a , body button{
     display: flex;
     align-items: center;
     background:#1b1b1b;
+    position: relative;
 }
 
 
@@ -165,7 +169,7 @@ body a , body button{
 
     .left_bg{
         width: 100%;
-        z-index: -1;
+        z-index: ;
     }
 
     .bg_container > div{
@@ -177,6 +181,7 @@ body a , body button{
     .right_bg{
         width: 100%;
         opacity: 0;
+        
     }
 }
 
@@ -184,7 +189,7 @@ body a , body button{
 
 .f_scrolltop {
     background: #2b2b2b;
-    padding: 40px 0px;
+    padding: 35px 0px;
     color: rgb(172, 172, 172);
     text-align: center;
     text-transform: uppercase;
